@@ -33,6 +33,10 @@ manifest.json       MV3 configuration
 
 Built by [Geron1mmo](https://github.com/Geron1mmo) — vibe coding, shipping fast.
 
+## Development
+
+Load unpacked in Chrome DevTools to test locally. Check `CONTRIBUTING.md` for PR guidelines.
+
 ## License
 
 MIT
