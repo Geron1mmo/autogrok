@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     chrome.storage.local.get(['watchdogActive'], (result) => {
       const active = result.watchdogActive !== false;
       status.textContent = active ? 'Prompt watchdog active' : 'Watchdog paused';
+      status.dataset.state = active ? 'on' : 'off';
     });
   }
 });
