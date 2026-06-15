@@ -31,7 +31,7 @@ manifest.json       MV3 configuration
 
 ## Author
 
-Built by [Geron1mmo](https://github.com/Geron1mmo) — vibe coding, shipping fast.
+Built by [Geron1mmo](https://github.com/Geron1mmo) — shipping fast, iterating daily.
 
 ## Development
 

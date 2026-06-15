@@ -8,3 +8,5 @@ Thanks for checking out AutoGrok!
 4. Open a pull request
 
 Please keep changes focused and test in Chrome developer mode before submitting.
+
+Report issues via GitHub Issues with steps to reproduce.
