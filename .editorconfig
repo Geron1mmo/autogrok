@@ -9,3 +9,4 @@ indent_size = 2
 
 [*.{js,json,html,css}]
 indent_size = 2
+trim_trailing_whitespace = true
