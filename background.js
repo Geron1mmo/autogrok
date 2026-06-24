@@ -70,6 +70,5 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
     return true;
   }
 
-  sendResponse({ ok: true });
   return false;
 });

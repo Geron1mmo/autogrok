@@ -134,10 +134,7 @@ function installWsEvents() {
 
     const currentPrompt = queue[index] || "";
     if (currentPrompt && echoMatchesPrompt(ws.outgoingPrompt, currentPrompt)) {
-      ws.accepted = true;
-      ws.blocked = false;
-      promptEchoConfirmedAt = Date.now();
-      setWs("Grok прийняв правильний prompt");
+      setWs("Grok відправляє правильний prompt");
       setText("ag4-protect", "WS outgoing OK");
     } else {
       setWs("Grok отримує промт...");

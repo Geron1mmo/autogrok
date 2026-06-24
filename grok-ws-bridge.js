@@ -107,7 +107,6 @@
         const prompt = extractPrompt(args[0]);
         if (prompt !== null) {
           const clean = norm(prompt);
-          emit("autogrok:v4-ws-outgoing", { prompt: clean, at: Date.now() });
 
           // ── GLOBAL BLOCK CHECK ──────────────────────────────────────────────
           // When AutoGrok is in control (globalBlock=true), block every send
@@ -177,6 +176,8 @@
               at: Date.now()
             });
           }
+
+          emit("autogrok:v4-ws-outgoing", { prompt: clean, at: Date.now() });
         }
       }
     } catch (err) {
